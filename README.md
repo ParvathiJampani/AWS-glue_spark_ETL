@@ -11,7 +11,8 @@ The Module performs the following Functions:
 * Lists max Deaths for each country/region and provice/state
 * List max Recoveries for each country/region and provice/state
 * stores the aggregated output in parquet format
-S3 bucket policy:
+* Create an IAm role for crawler
+*S3 bucket policy:
 {
   "Version": "2012-10-17",
   "Id": "GlueSparkETLJobPolicy",
