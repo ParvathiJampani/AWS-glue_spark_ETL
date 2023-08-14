@@ -11,5 +11,27 @@ The Module performs the following Functions:
 * Lists max Deaths for each country/region and provice/state
 * List max Recoveries for each country/region and provice/state
 * stores the aggregated output in parquet format
+S3 bucket policy:
+{
+  "Version": "2012-10-17",
+  "Id": "GlueSparkETLJobPolicy",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "glue.amazonaws.com"
+      },
+      "Action": [
+        "s3:GetObject",
+        "s3:PutObject",
+        "s3:ListBucket"
+      ],
+      "Resource": [
+        "arn:aws:s3:::your-source-bucket/*",
+        "arn:aws:s3:::your-destination-bucket/*"
+      ]
+    }
+  ]
+}
 
 
