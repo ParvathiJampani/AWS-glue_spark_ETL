@@ -11,5 +11,5 @@ The Module performs the following Functions:
 * Lists max Deaths for each country/region and provice/state
 * List max Recoveries for each country/region and provice/state
 * stores the aggregated output in parquet format
-*
+
 
