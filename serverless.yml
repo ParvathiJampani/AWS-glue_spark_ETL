@@ -10,7 +10,7 @@ provider:
   stackTags:
     product: datateam
     env: qa
-    created-date: 2022-04-05
+    created-date: 08/14/2023
     team: data
     customer-impact: false
     terraform: false
