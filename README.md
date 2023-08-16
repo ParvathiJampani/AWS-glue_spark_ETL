@@ -12,6 +12,8 @@ The Module performs the following Functions:
 * List max Recoveries for each country/region and provice/state
 * stores the aggregated output in parquet format
 * Create an IAm role for crawler
+
+  
 * S3 bucket policy:
 {
   "Version": "2012-10-17",
