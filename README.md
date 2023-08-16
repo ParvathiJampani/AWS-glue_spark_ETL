@@ -31,7 +31,7 @@ The Module performs the following Functions:
     }
   ]
 }
-* Perfroms Extract, Transform, Load (ETL) operations. 
+* Perfroms Extract, Transform, Load (ETL) operations.
 * Lists max Cases for each country/region and provice/state
 * Lists max Deaths for each country/region and provice/state
 * List max Recoveries for each country/region and provice/state
