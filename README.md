@@ -5,8 +5,9 @@ This module performs statistical analysis on the noval corona virus dataset. The
 designed for AWS Glue environment. Can be used as a Glue Pyspark Job.
 The dataset being used was last updated on May 02, 2020. 
 The Module performs the following Functions:
-* Reads data from csv files stored on AWS S3
 *  Create an IAm role for crawler
+* Reads data from csv files stored on AWS S3
+
   
 * S3 bucket policy:
 {
